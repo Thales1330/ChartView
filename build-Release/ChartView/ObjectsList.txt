@@ -1,0 +1,1 @@
+../build-Release/ChartView/wxMathPlot_mathplot.cpp.o ../build-Release/ChartView/ChartView.cpp.o ../build-Release/ChartView/ElementPlotData.cpp.o ../build-Release/ChartView/win_resources.rc.o ../build-Release/ChartView/main.cpp.o ../build-Release/ChartView/ChartViewBase.cpp.o ../build-Release/ChartView/ChartViewBitmaps.cpp.o   

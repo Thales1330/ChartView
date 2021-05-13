@@ -1,0 +1,15 @@
+-IC:\TDM-GCC-32\lib\gcc\mingw32\9.2.0\include\c++
+-IC:\TDM-GCC-32\lib\gcc\mingw32\9.2.0\include\c++\mingw32
+-IC:\TDM-GCC-32\lib\gcc\mingw32\9.2.0\include\c++\backward
+-IC:\TDM-GCC-32\lib\gcc\mingw32\9.2.0\include
+-IC:\TDM-GCC-32\include
+-IC:\TDM-GCC-32\lib\gcc\mingw32\9.2.0\include-fixed
+-IC:\Users\Pichau\Documents\GitHub\ChartView\ChartView\ChartView
+-IC:\wxWidgets-3.1.5\lib\gcc_lib\mswu
+-IC:\wxWidgets-3.1.5\include
+-D_UNICODE
+-DHAVE_W32API_H
+-DNDEBUG
+-D__WXMSW__
+-target
+i686-pc-windows-gnu

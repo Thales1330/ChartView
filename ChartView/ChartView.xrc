@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc">
+  <object class="wxFrame" name="ChartViewBase">
+    <title>Chart viewer</title>
+    <centered>1</centered>
+    <style>wxDEFAULT_FRAME_STYLE</style>
+    <object class="wxMenuBar" name="m_menuBar">
+      <style/>
+      <object class="wxMenu" name="m_menuFile">
+        <label>Arquivo</label>
+        <style/>
+        <object class="wxMenuItem" name="m_menuItemSaveImage">
+          <label>Salvar gráfico como imagem</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+        <object class="wxMenuItem" name="m_menuItemSendToClipboard">
+          <label>Senviar para área de transferência</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+        <object class="wxMenuItem" name="m_menuItemExportCSV">
+          <label>Exportar CSV...</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="m_menuItemExit">
+          <label>Sair</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+      </object>
+      <object class="wxMenu" name="m_menuView">
+        <label>Visualizar</label>
+        <style/>
+        <object class="wxMenuItem" name="m_menuItemFit">
+          <label>Encaixar</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="m_menuItemShowGrid">
+          <checkable>1</checkable>
+          <label>Mostrar grade</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+        <object class="wxMenuItem" name="m_menuItemShowLabel">
+          <checkable>1</checkable>
+          <label>Mostrar legendas</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+        <object class="wxMenuItem" name="m_menuItemShowCoordinates">
+          <checkable>1</checkable>
+          <label>Mostrar coordenadas</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+        <object class="wxMenuItem" name="m_menuItemDarkTheme">
+          <checkable>1</checkable>
+          <label>Tema escuro</label>
+          <accel>
+            <![CDATA[]]>
+          </accel>
+          <help>
+            <![CDATA[]]>
+          </help>
+        </object>
+      </object>
+    </object>
+    <object class="wxBoxSizer">
+      <orient>wxHORIZONTAL</orient>
+      <object class="sizeritem" name="boxSizer_lvl2_1">
+        <flag>wxEXPAND</flag>
+        <border>5</border>
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <flag/>
+            <border>5</border>
+            <minsize>250,-1</minsize>
+            <option>1</option>
+            <object class="wxTreeCtrl" name="m_treeCtrl">
+              <style>wxTR_DEFAULT_STYLE|wxTR_HIDE_ROOT</style>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <flag/>
+            <border>5</border>
+            <minsize>250,250</minsize>
+            <object class="unknown" name="m_pgMgr"/>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>
