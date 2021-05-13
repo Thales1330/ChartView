@@ -31,6 +31,6 @@
 *.out
 *.app
 
-build-Release
-build-Debug
-.codelite
+build-Release/
+build-Debug/
+.codelite/
